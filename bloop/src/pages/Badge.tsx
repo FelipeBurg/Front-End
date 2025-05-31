@@ -1,4 +1,8 @@
 const Badge = () => {
-  return <></>;
+  return <>
+  <div>
+    
+  </div>
+  </>;
 };
 export default Badge;
