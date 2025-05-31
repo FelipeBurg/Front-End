@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-height: 800px) {
+    .login-container {
+        min-height: 100vh;
+        padding: 2rem;
+    }
+
+    .login-form-container {
+        min-height: 600px;
+    }
+}
+
+@media (max-height: 800px) {
+    .login-container {
+        min-height: 100vh;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .login-card {
+        max-width: 100%;
+        margin: 0 1rem;
+    }
+}
+
+.fixed {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
