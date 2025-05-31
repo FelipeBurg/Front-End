@@ -3,16 +3,16 @@ import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import Badge from "./pages/Badge";
 import Feedback from "./pages/Feedback";
-import Team from "./pages/Team";
-import User from "./pages/User";
+import ChooseUserPage from "./pages/ChooseUserPage";
+import FeedbackSuccessPage from "./pages/FeedbackSuccessPage";
 
 const router = createBrowserRouter([
   { path: "/", element: <HomePage /> },
-  { path: "/user", element: <User /> },
+  { path: "/chooseUser", element: <ChooseUserPage /> },
   { path: "/feedback", element: <Feedback /> },
   { path: "/badge", element: <Badge /> },
   { path: "/login", element: <LoginPage /> },
-  { path: "/team", element: <Team /> },
+  { path: "/feedback-succes", element: <FeedbackSuccessPage /> },
 ]);
 
 export function Routes() {
